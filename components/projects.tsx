@@ -14,6 +14,8 @@ export function Projects() {
       techStack: ['Python', 'LLM Integration', 'Web Scraping', 'Tailwind CSS', 'React'],
       color: 'from-cyan-400/20 to-blue-500/20',
       borderColor: 'border-cyan-400/50',
+      status: 'In Progress',
+      progress: 10,
       highlights: [
         'Real-time policy tracking',
         'AI personalization engine',
@@ -97,8 +99,33 @@ export function Projects() {
               <div className={`relative bg-card border ${project.borderColor} rounded-2xl p-8 hover:border-cyan-400 transition-all duration-300 h-full flex flex-col`}>
                 {/* Header */}
                 <div className="mb-6">
-                  <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-2">{project.title}</h3>
-                  <p className="text-cyan-400/80 font-medium">{project.subtitle}</p>
+                  <div className="flex items-center justify-between mb-3">
+                    <h3 className="text-2xl md:text-3xl font-bold text-foreground">{project.title}</h3>
+                    {project.status && (
+                      <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
+                        project.status === 'In Progress' 
+                          ? 'bg-amber-500/20 border border-amber-400/50 text-amber-400'
+                          : 'bg-green-500/20 border border-green-400/50 text-green-400'
+                      }`}>
+                        {project.status}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-cyan-400/80 font-medium mb-3">{project.subtitle}</p>
+                  {project.progress !== undefined && (
+                    <div className="w-full">
+                      <div className="flex justify-between items-center mb-2">
+                        <span className="text-xs text-foreground/50 font-medium">Progress</span>
+                        <span className="text-xs text-foreground/70 font-semibold">{project.progress}%</span>
+                      </div>
+                      <div className="w-full h-2 bg-card border border-cyan-500/20 rounded-full overflow-hidden">
+                        <div 
+                          className="h-full bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full transition-all duration-500"
+                          style={{ width: `${project.progress}%` }}
+                        />
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 {/* Description */}

@@ -84,7 +84,7 @@ export function Hero() {
         {/* Social Links */}
         <motion.div variants={itemVariants} className="flex justify-center gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/amshita2647-star"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-lg bg-card border border-cyan-500/30 hover:border-cyan-400 hover:bg-cyan-400/10 transition-all duration-300 text-foreground/70 hover:text-cyan-400"
@@ -96,7 +96,7 @@ export function Hero() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/amshita-n-u-7ab616377?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-lg bg-card border border-cyan-500/30 hover:border-cyan-400 hover:bg-cyan-400/10 transition-all duration-300 text-foreground/70 hover:text-cyan-400"
@@ -108,7 +108,7 @@ export function Hero() {
             </svg>
           </a>
           <a
-            href="mailto:your.email@mit.edu"
+            href="mailto:amshita2647@gmail.com"
             className="w-12 h-12 flex items-center justify-center rounded-lg bg-card border border-cyan-500/30 hover:border-cyan-400 hover:bg-cyan-400/10 transition-all duration-300 text-foreground/70 hover:text-cyan-400"
             aria-label="Email"
             title="Email"
