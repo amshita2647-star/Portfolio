@@ -45,7 +45,7 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/amshita2647-star"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-lg bg-background hover:bg-cyan-500/10 text-foreground/60 hover:text-cyan-400 transition-all duration-300 border border-cyan-500/10"
@@ -56,7 +56,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/amshita-n-u-7ab616377?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-lg bg-background hover:bg-cyan-500/10 text-foreground/60 hover:text-cyan-400 transition-all duration-300 border border-cyan-500/10"
@@ -67,7 +67,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:amshita2647@gmail.com"
               className="w-10 h-10 flex items-center justify-center rounded-lg bg-background hover:bg-cyan-500/10 text-foreground/60 hover:text-cyan-400 transition-all duration-300 border border-cyan-500/10"
               aria-label="Email"
             >

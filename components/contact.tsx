@@ -79,7 +79,7 @@ export function Contact() {
           <motion.div variants={itemVariants} className="space-y-8">
             <div className="group">
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:amshita2647@gmail.com"
                 className="flex items-center gap-4 p-4 bg-card border border-cyan-500/20 rounded-lg hover:border-cyan-400/50 transition-all duration-300"
               >
                 <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-cyan-500/10 text-cyan-400 group-hover:bg-cyan-400/20 transition-colors">
@@ -87,14 +87,14 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-foreground/60 text-sm">Email</p>
-                  <p className="text-foreground font-semibold">your.email@example.com</p>
+                  <p className="text-foreground font-semibold">amshita2647@gmail.com</p>
                 </div>
               </a>
             </div>
 
             <div className="group">
               <a
-                href="https://github.com"
+                href="https://github.com/amshita2647-star"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 bg-card border border-cyan-500/20 rounded-lg hover:border-cyan-400/50 transition-all duration-300"
@@ -106,14 +106,14 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-foreground/60 text-sm">GitHub</p>
-                  <p className="text-foreground font-semibold">github.com/yourprofile</p>
+                  <p className="text-foreground font-semibold">github.com/amshita2647-star</p>
                 </div>
               </a>
             </div>
 
             <div className="group">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/amshita-n-u-7ab616377?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 bg-card border border-cyan-500/20 rounded-lg hover:border-cyan-400/50 transition-all duration-300"
@@ -125,7 +125,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-foreground/60 text-sm">LinkedIn</p>
-                  <p className="text-foreground font-semibold">linkedin.com/in/yourprofile</p>
+                  <p className="text-foreground font-semibold">Amshita N U</p>
                 </div>
               </a>
             </div>
